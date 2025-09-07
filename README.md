@@ -30,11 +30,10 @@ Esse código não tem um "treinamento completo" com ajuste de pesos, mas sim a *
 ---
 
 ## 4. Aplicação prática
-Um exemplo simples de aplicação do Perceptron seria em um **sistema de filtro de spam**:  
-- Entradas: presença de certas palavras no e-mail (ex: "promoção", "grátis", "oferta").  
-- Saída: se o e-mail é spam (1) ou não (0).  
+Um exemplo prático em que o Perceptron poderia ser útil é em um **sistema de reconhecimento de portas abertas ou fechadas usando sensores**.  
+- Entradas: valores de sensores que detectam posição da porta, pressão ou luz ambiente.  
+- Saída: 1 se a porta está aberta, 0 se está fechada.  
 
-Nesse caso, mesmo um modelo simples como o Perceptron pode ser útil, pois é rápido, fácil de implementar e funciona bem quando os dados podem ser separados de forma linear.
-
+Esse tipo de aplicação é simples e linear, ideal para o Perceptron, pois não exige um modelo complexo e pode ser implementado de forma rápida e eficiente em sistemas embarcados.
 ---
 
