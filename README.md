@@ -35,5 +35,5 @@ Um exemplo prático em que o Perceptron poderia ser útil é em um **sistema de 
 - Saída: 1 se a porta está aberta, 0 se está fechada.  
 
 Esse tipo de aplicação é simples e linear, ideal para o Perceptron, pois não exige um modelo complexo e pode ser implementado de forma rápida e eficiente em sistemas embarcados.
----
+
 
